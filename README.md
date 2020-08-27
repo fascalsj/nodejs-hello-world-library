@@ -15,7 +15,7 @@ description:
 ### Input your entry point, it will set your root js 
 entry point: (index.js)
 
-### Git repository, it mirroring your repository
+### Git repository, it just show your repository
 git repository: (https://github.com/fascalsj/nodejs-hello-world-library.git)
 
 ### Information about the author 
@@ -23,3 +23,14 @@ author:
 ```
 4. Add npm user using ```npm adduser```
 5. Publish your npm library using ```npm publish```
+6. Install the library on your project ```npm install nodejs-hello-world-library@1.0.0 ``` 
+7. Import it using 
+
+```
+var test = require('nodejs-hello-world-library');
+
+test.helloWorld;
+test.doSomethingAwesome;
+test.doSomethingElse;
+
+```
