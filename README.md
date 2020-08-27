@@ -24,7 +24,7 @@ author:
 4. Add npm user using ```npm adduser```
 5. Publish your npm library using ```npm publish```
 6. Install the library on your project ```npm install nodejs-hello-world-library@1.0.0 ``` 
-7. Import it using 
+7. Test it in your npm project
 
 ```
 var test = require('nodejs-hello-world-library');
