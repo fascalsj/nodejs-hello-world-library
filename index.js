@@ -1,14 +1,12 @@
-function helloWorld() {
+exports.helloWorld = function helloWorld() {
     console.log('Hello World!');
-  }
-  function doSomethingAwesome() {
+}
+exports.doSomethingAwesome = function doSomethingAwesome() {
     console.log('Doing something awesome...');  
-  }
-  function doSomethingElse() {
+}
+exports.doSomethingElse = function doSomethingElse() {
     console.log('Now something else...'); 
-  }
-  module.exports = {
-    helloWorld: helloWorld,
-    doSomethingAwesome: doSomethingAwesome,
-    doSomethingElse: doSomethingElse
-  }
+}
+exports.doSomethinNew = function doSomethinNew(ok){
+    return ok;
+}
