@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-hello-world-library",
+  "version": "1.0.0",
+  "description": "My first npm library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fascalsj/nodejs-hello-world-library.git"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "fascalsj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fascalsj/nodejs-hello-world-library/issues"
+  },
+  "homepage": "https://github.com/fascalsj/nodejs-hello-world-library#readme"
+}
