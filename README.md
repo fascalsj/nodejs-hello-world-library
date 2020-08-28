@@ -7,7 +7,7 @@
 package name: (nodejs-hello-world-library)
 
 ### Input your version, if you put blank as default will set version as in display
-version: (1.0.0)
+version: (1.0.1)
 
 ### Input your description, if you put blank it will blank description
 description:
