@@ -32,6 +32,6 @@ var test = require('nodejs-hello-world-library');
 test.helloWorld();
 test.doSomethingAwesome();
 test.doSomethingElse();
-test.doSomethinNew("ok");
+console.log(test.doSomethinNew("ok"));
 
 ```
